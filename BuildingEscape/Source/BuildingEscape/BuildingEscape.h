@@ -1,6 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright David Hinkle, Angelica Visione 2018
 
 #pragma once
 
 #include "CoreMinimal.h"
-
