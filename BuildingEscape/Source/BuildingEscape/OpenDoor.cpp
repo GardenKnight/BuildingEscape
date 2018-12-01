@@ -23,10 +23,10 @@ void UOpenDoor::BeginPlay()
 	AActor* Owner = GetOwner(); // we are declaring a pointer to an actor called Owner
 
 	// Creator a rotator
-	FRotator NewRotation = FRotator(0.0f, -70.0f, 0.0f); // FRotator is a struct declaring variable, calling constructor
+	FVector NewPosition = FVector(0.0f, 0.0f, -332.0f); // FVector is a struct declaring variable, calling constructor
 	
 	// Set the door rotation
-	Owner->SetActorRotation(NewRotation); // (NewRotation) is the variable
+	Owner->SetActorLocation(NewPosition); // (NewPosition) is the variable
 }
 
 
