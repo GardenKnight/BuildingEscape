@@ -32,6 +32,5 @@ private: // for code privacy, other methods can't just set in
 	UPROPERTY(EditAnywhere) // macro before compile
 	ATriggerVolume* PressurePlate;
 
-	UPROPERTY(EditAnywhere) // macro before compile
 	AActor* ActorThatOpens; // remember pawn inherits from actor
 };
